@@ -20,7 +20,7 @@ mip-lmb-script 辣妈帮mip:URL跳转、关闭元素显示、点击切换元素�
 ## urlJump(url) URL跳转接口
 ### 参数 url
 
-说明：跳转地址
+说明：跳转地址 
 必选项：是   
 类型：url字符串
 单位：无   
@@ -29,7 +29,8 @@ mip-lmb-script 辣妈帮mip:URL跳转、关闭元素显示、点击切换元素�
 
 ## closeEle(closeId) 关闭元素显示
 ### 参数 closeId
-说明：要关闭元素的ID
+
+说明：要关闭元素的ID 
 必选项：是   
 类型：字符串
 单位：无   
@@ -40,7 +41,7 @@ mip-lmb-script 辣妈帮mip:URL跳转、关闭元素显示、点击切换元素�
 ## toggleEle(toggleId) 点击切换元素显示
 ### 参数 toggleId
 
-说明：要切换显示的元素id
+说明：要切换显示的元素id 
 必选项：是   
 类型：字符串
 单位：无   
