@@ -17,7 +17,7 @@ mip-lmb-script 辣妈帮mip改造组件
 		<div  id="toggleId" on="tap:lmb-script.toggleEle(toggleId)">点我切换显示×××</div>
 ```
 
-## urlJump URL跳转接口
+## urlJump(url) URL跳转接口
 ### 参数 url
 
 说明：跳转地址
@@ -27,7 +27,7 @@ mip-lmb-script 辣妈帮mip改造组件
 默认值：无   
 
 
-## closeEle 关闭元素显示
+## closeEle(closeId) 关闭元素显示
 ### 参数 closeId
 说明：要关闭元素的ID
 必选项：是   
@@ -37,7 +37,7 @@ mip-lmb-script 辣妈帮mip改造组件
 
 
 
-## 点击切换元素显示
+## toggleEle(toggleId) 点击切换元素显示
 ### 参数 toggleId
 
 说明：要切换显示的元素id
