@@ -1,6 +1,6 @@
 # mip-lmb-script
 
-mip-lmb-script 辣妈帮mip改造组件
+mip-lmb-script 辣妈帮mip:URL跳转、关闭元素显示、点击切换元素显示组件
 
 标题|内容
 ----|----
@@ -12,7 +12,7 @@ mip-lmb-script 辣妈帮mip改造组件
 ### 使用列子
 ```html
 		<mip-lmb-script id="lmb-script"></mip-lmb-script>
-		<div on="tap:lmb-script.urlJump(url)">URL跳转</div>
+		<div on="tap:lmb-script.urlJump(http://www.lamabang.com/)">URL跳转</div>
 		<span class="close" id="closeId" on="tap:lmb-script.closeEle(closeId)">点我关闭×</span>
 		<div  id="toggleId" on="tap:lmb-script.toggleEle(toggleId)">点我切换显示×××</div>
 ```

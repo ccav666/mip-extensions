@@ -4,7 +4,7 @@
 */
 define(function (require) {
     var customEle = require('customElement').create();
-    customEle.prototype.build = function () {
+    customEle.prototype.firstInviewCallback = function () {
         // URL跳转
         this.addEventAction('urlJump', function (event, url) {
             if (url) {
